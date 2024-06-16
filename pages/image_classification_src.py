@@ -4,7 +4,7 @@ import streamlit as st
 st.header('Image Classification App')
 st.subheader('This python code is implemented for Streamlit')
 st.code('''
-        import pickle
+import pickle
 from img2vec_pytorch import Img2Vec
 from PIL import Image
 import streamlit as st
@@ -26,21 +26,21 @@ st.set_page_config(layout="wide", page_title="Image Classification for Clothes")
 
 st.write("## Let's try to see what kind of clothes is in the image!")
 st.write(
-    ":grin: We'll try to predict the clothes depicted in your uploaded image :grin:"
+    ":grin: We'll try to predict the kin of clothes depicted in your uploaded image :grin:"
 )
 st.sidebar.write("## Upload and download :gear:")
 
 MAX_FILE_SIZE = 5 * 1024 * 1024  # 5MB
 
 # Download the fixed image
-@st.cache_data 
+# @st.cache_data 
 def convert_image(img):
     buf = BytesIO()
     img.save(buf, format="jpg")
     byte_im = buf.getvalue()
     return byte_im
 
-@st.cache_data 
+# @st.cache_data 
 def fix_image(upload):
     image = Image.open(upload)
     col1.write("Image to be predicted :camera:")
@@ -68,6 +68,6 @@ if my_upload is not None:
     else:
         fix_image(upload=my_upload)
 else:
-    st.write("by Charlene Sodusta...")
+    st.write("by koalatech...")
     # fix_image("./zebra.jpg")
     ''')
