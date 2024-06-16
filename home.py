@@ -23,15 +23,13 @@ show_pages(
 
 st.markdown("""
 
-##### 👨‍🎓About Me:
-At 22, I'm a student at Carlos Hilado Memorial State University, 
-studying for a Bachelor of Science in Information Systems. I chose 
-this path because I've always loved tinkering with computers. From 
-coding to problem-solving, I find it all fascinating. As I progress 
-through my studies, I'm excited to learn more about databases, 
-programming languages, and network systems. I believe that with 
-dedication and a love for learning, I can turn my passion for technology 
-into a rewarding career.          
+##### Personal Information
+
+Name: Charlene Mae P. Sodusta
+Age: 21 years old
+Education: Currently studying at CARLOS HILADO MEMORIAL STATE UNIVERSITY
+ear: 3rd year Bachelor of Science in Information Systems Student
+Location: Brgy. Hawaiian, Silay City        
 
 ### 💾 Machine Learning
 
@@ -45,8 +43,6 @@ into a rewarding career.
 
 ### 🔎 Overview""", unsafe_allow_html=True)
 
-
-st.image("./sentiment_analyzer.png")
 
 
 st.markdown("""
