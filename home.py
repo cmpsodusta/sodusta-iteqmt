@@ -4,12 +4,12 @@ from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 add_page_title()
 show_pages(
     [   
-        Section("Vernie Jaica M. Danico BSIS3C"),
+
         Page("home.py",),
         Section("Applications"),
         Page("pages/crop_recom_streamlitapp.py", "Prediction", "1️⃣", in_section=True),
         Page("pages/basic_sentiment_analyzer.py", "Sentiment Analysis", "2️⃣", in_section=True),
-        Page("pages/activity_endterm_4.py", "Image Classification", "3️⃣", in_section=True),
+        Page("img_classification.py", "Image Classification", "3️⃣", in_section=True),
 
 
         Section("Source Codes"),
