@@ -43,7 +43,13 @@ st.markdown("""
 
 # Horizontal lines for separation
 st.markdown("""
-<hr>
+As you navigate through my Streamlit app, you'll find that it's designed to showcase three key capabilities: prediction, sentiment analysis, and image classification. On the main page, you'll learn a bit about me and my background in machine learning, as well as a brief overview of the apps I've built.
+
+The web interface is where the magic happens. Using Streamlit, users can interact with the models directly. For prediction, users can upload their own data and receive predictions based on the trained model. For sentiment analysis, users can input text and receive sentiment analysis results. For image classification, users can upload images and receive classification results.
+
+To ensure the accuracy and efficiency of the models, I've pre-trained them using a variety of techniques. The pre-trained models are stored in pickle files, making it easy to load and use them within the app. For those interested in the technical details, I've also included the source code for training the models and the pre-trained models themselves.
+
+My Streamlit app is designed to provide a comprehensive and interactive experience for users, showcasing the capabilities of machine learning in a user-friendly and accessible way.
 """, unsafe_allow_html=True)
 
 st.markdown("""
